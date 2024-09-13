@@ -18,21 +18,21 @@
     </header>
 
     <main>
-        <form>
-            <label>full name</label>
-            <input type="text">
+        <form action="" method="get">
+            <label for="name">full name</label>
+            <input id="name" type="text" name="user name" autofocus required>
 
-            <label>email</label>
-            <input type="email">
+            <label for="email">email</label>
+            <input id="email" type="email" name="user email" required>
 
-            <label>password</label>
-            <input type="password">
+            <label for="pass">password</label>
+            <input id="pass" type="password" name="password" minlength="8" maxlength="15" required>
 
-            <label>password confirmatione</label>
-            <input type="password">
+            <label for="conf pass">password confirmatione</label>
+            <input id="conf pass" type="password" name="conf password" minlength="8" maxlength="15" required>
 
-            <input type="checkbox">
-            <label>agree to the terms and conditions</label>
+            <input id="check" type="checkbox" name="checkbox" required>
+            <label for="check">agree to the terms and conditions</label>
 
             <button type="submit">register now</button>
         </form>
